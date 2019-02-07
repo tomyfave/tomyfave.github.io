@@ -25,9 +25,9 @@
     </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">index <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="index.html">index <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="portfolio.html">portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">contact</a>
+                <a class="nav-item nav-link active" href="contact.html">contact</a>
             </div>
         </div>
 </nav>
@@ -38,25 +38,26 @@
     <div class="row">
         <div class="col-xs-8 col-sm-8">
             <section class="main-section">
-                <h1>About Me</h1>
-                <hr>
-                <img src="assets/images/7.jpg" class="auth-image" alt="portfolio pic" width="150" height="230">
-                    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Cumque, excepturi ducimus, sed modi laudantium amet 
-                blanditiis ipsum, impedit aliquam non laboriosam unde 
-                veritatis assumenda dignissimos? Lorem ipsum dolor sit 
-                amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Cumque, excepturi ducimus, sed modi laudantium amet 
-                blanditiis ipsum, impedit aliquam non laboriosam unde 
-                veritatis assumenda dignissimos?Lorem ipsum dolor sit 
-                amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Cumque, excepturi ducimus, sed modi laudantium amet 
-                blanditiis ipsum, impedit aliquam non laboriosam unde 
-                veritatis assumenda dignissimos?Lorem ipsum dolor sit 
-                amet consectetur adipisicing elit.</p>
+                <h1>Contact Me</h1>
+                 <hr>           
+            <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="JohnSmith@gmail.com" required="required">
+                        </li>
+                        <li>
+                        <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                     </ul>
+                     <input type="submit" name="submit">
+                </form>
+    
                             
             </section>
         </div>
